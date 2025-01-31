@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART</title>
+    <link rel="stylesheet" href="stylesheet4.css">
+</head>
+<body>
+    <div class="ma2">
+        <a href="2nd.html"><button class="btn" id="Home">HOME</button></a>
+    <h1 id="mnwr">OPIUM</h1> 
+
+<div class="button-container">
+  <a href="logout.php"><button class="button" onclick="clearCartFromOtherPage()">
+    <svg
+      class="icon"
+      stroke="currentColor"
+      fill="currentColor"
+      stroke-width="0"
+      viewBox="0 0 512 512"
+      height="1em"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"
+      ></path>
+    </svg>
+  </button></a>
+  <a href="Profile.html"><button class="button1">
+    <svg
+      class="icon"
+      stroke="currentColor"
+      fill="currentColor"
+      stroke-width="0"
+      viewBox="0 0 24 24"
+      height="1em"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 2.5a5.5 5.5 0 0 1 3.096 10.047 9.005 9.005 0 0 1 5.9 8.181.75.75 0 1 1-1.499.044 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.5-.045 9.005 9.005 0 0 1 5.9-8.18A5.5 5.5 0 0 1 12 2.5ZM8 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z"
+      ></path>
+    </svg>
+  </button></a>
+
+<button class="button1">
+    <svg
+      class="icon"
+      stroke="currentColor"
+      fill="none"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      height="1em"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="9" cy="21" r="1"></circle>
+      <circle cx="20" cy="21" r="1"></circle>
+      <path
+        d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+      ></path>
+    </svg>
+  </button>
+</div>
+
+    </div>
+
+
+
+    
+    <div class="div1">
+        <h1>CART</h1>
+      </div>
+        <div id="cart-container">
+          <p id="empty-message">Your cart is empty.</p>
+          <div id="cart-items"></div>
+        </div> 
+    <button id="clear-cart" style="display: block; margin: 20px auto; color: #7e1919;">Clear Cart</button>
+    <button id="checkout">Checkout</button>
+    <form method="post" action="place_order.php">
+    <div id="popup-overlay"></div>
+    <div id="checkout-popup">
+        <button id="close-popup">X</button>
+        <br>
+        <h3 style="color: #2b2b2b;text-align: center;">Checkout</h3>
+        <p style="color: #2b2b2b;text-align: center;">Total: <span id="popup-total-price"></span></p>
+        <label for="address">Address:</label>
+        <input required name="address" type="text" id="address" placeholder="Enter your address" style="width: 100%; padding: 5px; margin-top: 5px;">
+
+        <label for="payment-method" style="margin-top: 10px;">Payment Method:</label>
+<select name="payment-method" id="payment-method" required style="width: 100%; padding: 5px; margin-top: 5px;">
+    <option  value="">Select Payment Method</option>
+    <option  value="credit-card">Credit Card</option>
+    <option  value="cash-on-delivery">Cash on Delivery</option>
+</select>
+
+<div  id="credit-card-fields" style="display: none; margin-top: 10px;">
+    <label for="card-number">Card Number:</label>
+    <input required type="text" id="card-number" placeholder="Enter your card number" style="width: 100%; padding: 5px; margin-top: 5px;" maxlength="16">
+
+    <label for="expiry-date">Expiry Date:</label>
+    <input required type="text" id="expiry-date" placeholder="MM/YY" style="width: 100%; padding: 5px; margin-top: 5px;">
+
+    <label for="cvv">CVV:</label>
+    <input required type="text" id="cvv" placeholder="Enter CVV" style="width: 100%; padding: 5px; margin-top: 5px;" maxlength="3">
+</div>
+
+<button type="submit" id="confirm">Confirm</button>
+      </div></form>
+    <script>
+           const checkoutButton = document.getElementById('checkout');
+      const popupOverlay = document.getElementById('popup-overlay');
+      const paymentMethodSelect = document.getElementById('payment-method');
+      const creditCardFields = document.getElementById('credit-card-fields');
+      const checkoutPopup = document.getElementById('checkout-popup');
+      const closePopupButton = document.getElementById('close-popup');
+      const confirmButton = document.getElementById('confirm');
+      const popupTotalPrice = document.getElementById('popup-total-price');
+      const clearCartButton = document.getElementById('clear-cart');
+      const emptyMessage = document.getElementById('empty-message');
+      const cartItemsContainer = document.getElementById('cart-items');
+      const totalPriceElement = document.createElement('p'); 
+      totalPriceElement.style.marginTop = '20px';
+      cartItemsContainer.parentNode.appendChild(totalPriceElement);
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+      paymentMethodSelect.addEventListener('change', () => {
+        if (paymentMethodSelect.value === 'credit-card') {
+          creditCardFields.style.display = 'block'; 
+        } else {
+          creditCardFields.style.display = 'none';
+        }
+      });
+
+      function showPopup(message, colorClass) {
+        const popup = document.createElement('div');
+        popup.className = `popup ${colorClass}`;
+        popup.textContent = message;
+        document.body.appendChild(popup);
+
+        popup.style.display = 'block';
+        setTimeout(() => {
+          popup.style.display = 'none';
+          popup.remove();
+        }, 3000);
+      }
+
+      function openPopup(total) {
+          popupTotalPrice.textContent = `${total.toFixed(2)} EGP`;
+          popupOverlay.style.display = 'block';
+          checkoutPopup.style.display = 'block';
+      }
+
+      function closePopup() {
+          popupOverlay.style.display = 'none';
+          checkoutPopup.style.display = 'none';
+      }
+
+      checkoutButton.addEventListener('click', () => {
+          if (cart.length === 0) {
+            showPopup('Your cart is empty!', 'red');
+          } else {
+              let total = 0;
+              cart.forEach(item => {
+                  const price = parseFloat(item.price.replace('EGP ', '').replace(',', ''));
+                  total += price * item.quantity;
+              });
+              openPopup(total);
+          }
+      });
+        
+        closePopupButton.addEventListener('click', closePopup);
+        popupOverlay.addEventListener('click', closePopup);
+        confirmButton.addEventListener('click', () => {
+    const address = document.getElementById('address').value;
+    const paymentMethod = paymentMethodSelect.value;
+
+    if (paymentMethod === 'credit-card') {
+        const cardNumber = document.getElementById('card-number').value.trim();
+        const expiryDate = document.getElementById('expiry-date').value.trim();
+        const cvv = document.getElementById('cvv').value.trim();
+
+        if (!cardNumber || cardNumber.length !== 16 || isNaN(cardNumber)) {
+            showPopup('Please enter a valid 16-digit card number.', 'red');
+            return;
+        }
+
+        if (!expiryDate || !/^\d{2}\/\d{2}$/.test(expiryDate)) {
+            showPopup('Please enter a valid expiry date in MM/YY format.', 'red');
+            return;
+        }
+
+        
+        const [month, year] = expiryDate.split('/').map(Number);
+        const currentYear = new Date().getFullYear() % 100; 
+        const currentMonth = new Date().getMonth() + 1;
+
+        if (year < 24 || (year === 24 && month < 12)) {
+            showPopup('Your card expiry date cannot be before 12/24.', 'red');
+            return;
+        }
+
+        if (!cvv || cvv.length !== 3 || isNaN(cvv)) {
+            showPopup('Please enter a valid 3-digit CVV.', 'red');
+            return;
+        }
+    }
+    if (!paymentMethod) {
+        showPopup('Please enter your Payment method.', 'red');
+        return;
+    }
+    if (!address) {
+        showPopup('Please enter your address.', 'red');
+        return;
+    }
+    if (cart.length === 0) {
+              showPopup('Your cart is empty!', 'red');
+              return;
+          }
+          const payload = {
+              address,
+              'payment-method': paymentMethod,
+              cart,
+              total: parseFloat(totalPriceElement.textContent.replace('Total: ', '').replace(' EGP', '')),
+          };
+
+          fetch('place_order.php', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: new URLSearchParams({
+        address: address,
+        'payment-method': paymentMethod,
+        cart: JSON.stringify(cart), // Cart sent as JSON string
+        total: total.toFixed(2),    // Total sent as a string
+    }).toString(),
+})
+    .then((response) => response.json())
+    .then((data) => {
+        if (data.success) {
+            showPopup(data.message, 'green');
+            cart = [];
+            localStorage.setItem('cart', JSON.stringify(cart));
+            updateCart();
+            closePopup();
+        } else {
+            showPopup('Outage occurred. Please reorder!', 'red');
+        }
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+        showPopup(data.message, 'red');
+    });
+
+
+   
+});
+function updateCart() {
+    cartItemsContainer.innerHTML = '';
+    if (cart.length === 0) {
+        emptyMessage.style.display = 'block';
+        cartItemsContainer.style.textAlign = 'center';
+        totalPriceElement.textContent = 'Total: 0.00 EGP';
+    } else {
+        emptyMessage.style.display = 'none';
+        cartItemsContainer.style.textAlign = 'left';
+        cartItemsContainer.innerHTML = ''; 
+        
+        let total = 0;
+        cart.forEach((item, index) => {
+            const itemElement = document.createElement('div');
+            itemElement.innerHTML = `
+                <p>${item.name} - ${item.price} x ${item.quantity} (Size: ${item.size})</p>
+                <p>Code: ${item.code}</p>
+                <button class="delete-button" data-index="${index}"style="background-color: red; color: white; border: none; padding: 5px 10px; cursor: pointer;">Delete</button>
+                <hr>
+            `;
+            cartItemsContainer.appendChild(itemElement);
+            const price = parseFloat(item.price.replace('EGP ', '').replace(',', ''));
+            total += price * item.quantity;
+        });
+
+        totalPriceElement.textContent = `Total: ${total.toFixed(2)} EGP`;
+    }
+}
+
+cartItemsContainer.addEventListener('click', (e) => {
+    if (e.target.classList.contains('delete-button')) {
+        const index = e.target.getAttribute('data-index');
+        cart.splice(index, 1);
+        localStorage.setItem('cart', JSON.stringify(cart));
+        updateCart();
+    }
+});
+
+
+clearCartButton.addEventListener('click', () => {
+    cart = [];
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCart();
+});
+window.addEventListener('storage', (event) => {
+    if (event.key === 'cart') {
+        updateCart(); 
+    }
+});
+
+updateCart();
+function clearCartFromOtherPage() {
+            localStorage.removeItem('cart');
+        }
+    </script>
+</body>
+</html>
+
+
+<?php
+// Start session
+session_start();
+
+// Check if the user is logged in
+if (!isset($_SESSION['email'])) {
+    echo json_encode(["success" => false, "message" => "Please log in to checkout."]);
+    exit;
+}
+
+// Include database connection
+include 'connect.php';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+
+
+
+    // Retrieve posted data
+    $address = trim($_POST['address']);
+    $payment_method = trim($_POST['payment-method']);
+    $cart =  json_decode($_POST['cart']) ;
+$total_price =  floatval($_POST['total']) ;
+
+// Print debug information
+echo "<pre>"; // Optional: Format the output for better readability
+
+echo "Address: " . htmlspecialchars($address) . "\n";
+echo "Payment Method: " . htmlspecialchars($payment_method) . "\n";
+echo "Cart: " . print_r($cart, true) . "\n";
+echo "Total: " . htmlspecialchars($total_price) . "\n";
+
+echo "</pre>";
+
+// Exit the script to prevent further execution (for debugging purposes)
+exit;
+
+
+error_log("Address: $address");
+error_log("Payment Method: $payment_method");
+error_log("Cart: " . print_r($cart, true));
+error_log("Total: $total_price");
+}
+
+$conn->close();
+?>

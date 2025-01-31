@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#1a1a1a;
+    color: #ffffff
+}
+.ma{
+  background-color: #2b2b2b;
+  width: 100%;
+  
+}
+.ma2{
+  background-color:#1a1a1a;
+  display: flex; 
+  align-items: center;
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid #444;
+  position: relative; 
+  gap: 20px; 
+}
+.mo{
+text-align: center;
+text-align: center;
+  color: #ffffff;
+  font-family: 'Russo One', sans-serif;
+  margin: 0;
+  padding: 10px 0;
+}
+#mnwr{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  font-family: 'Russo One', sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 
+      0 0 10px #00ffff,
+      0 0 20px #00ffff,
+      0 0 40px #00ffff,
+      0 0 80px #0000ff,
+      0 0 100px #0000ff;
+  animation: flicker 1.5s infinite;
+  margin: 0; 
+}
+.btn {
+  font-size: 17px;
+  font-family: 'Russo One', sans-serif;
+  background: transparent;
+  border: none;
+  padding: 1em 1.5em;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: relative;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ffffff;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  color: rgb(255, 255, 255);
+  transition-delay: 0.5s;
+}
+
+.btn:hover::before {
+  width: 100%;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-color: #000000;
+  transition: 0.4s ease;
+  z-index: -1;
+}
+
+.btn:hover::after {
+  height: 100%;
+  transition-delay: 0.4s;
+  color: rgb(0, 0, 0);
+}
+.button-container {
+  position: absolute; 
+  right: 0; 
+  margin-right: 10px; 
+  background-color: #1a1a1a;
+  width: 250px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: rgba(43, 42, 42, 0.35) 0px 5px 15px,
+      rgba(37, 36, 36, 0.5) 5px 10px 15px;
+  transition: all 0.5s;
+}
+.button-container:hover {
+  width: 300px;
+  transition: all 0.5s;
+}
+
+.button {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+.icon {
+    font-size: 20px;
+}
+.div1{
+    background-color: #2b2b2b;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    padding: 0.5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #444;
+}
+#personal_info{
+  padding: 40px;
+}
+#transactions{
+  padding: 40px;
+  font-family: 'Russo One', sans-serif;
+}
+#deletion{
+  padding: 40px;
+  font-family: 'Russo One', sans-serif;
+}
+.vl {
+    border-right: 4px solid #444;
+    height: 566px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+
+  }
+  .main{
+    display: flex;
+    
+  }
+  #Settings{
+  padding: 40px;
+  }
+button {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Russo One', sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+#del{
+  font-size: 18px;
+  color: #7e1919;
+  font-family: 'Russo One', sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+button:focus,
+button:hover {
+  color: #222;
+}
+
+button:focus:after,
+button:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+button:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #000000;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+.input-style {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+}
+
+.input-style:focus {
+  border-color: #444;
+  box-shadow: 0 0 0 0.2rem #444;
+}
+.form-container {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  z-index: 3;
+  width: 80%;
+  max-width: 400px;
+}
+
+.form-container input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #7e1919;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  color: #7e1919;
+  cursor: pointer;
+}
+.butt{
+  display: inline-block;
+ border-radius: 4px;
+ background-color: #3d405b;
+ border: none;
+ color: #FFFFFF;
+ text-align: center;
+ font-size: 17px;
+ padding: 16px;
+ width: 130px;
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 5px;
+}
+.butt span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+ }
+ 
+ .butt span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+ }
+ 
+ .butt:hover span {
+  padding-right: 15px;
+ }
+ 
+ .butt:hover span:after {
+  opacity: 1;
+  right: 0;
+ }
+ #conbutt {
+  padding: 12.5px 63px;
+  border: 0;
+  display: flex;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  font-family: 'Russo One', sans-serif;
+  -webkit-transition: all 0.5s;
+  margin: 5px;
+}
+
+#conbutt:hover {
+  background-color: #6fc5ff;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+#conbutt:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+

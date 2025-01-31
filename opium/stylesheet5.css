@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+body {
+    font-family: 'Russo One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#1a1a1a;
+    color: #fff;
+  }
+  .ma{
+    background-color: #2b2b2b;
+    width: 100%;
+    
+  }
+  .ma2{
+    background-color:#1a1a1a;
+    display: flex; 
+    align-items: center; 
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #444;
+    position: relative; 
+    gap: 20px; 
+  }
+  .mo{
+  text-align: center;
+  text-align: center;
+    color: #ffffff;
+    font-family: 'Russo One', sans-serif;
+    margin: 0;
+    padding: 10px 0;
+  }
+  #mnwr{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff,
+        0 0 80px #0000ff,
+        0 0 100px #0000ff;
+    animation: flicker 1.5s infinite;
+    margin: 0; 
+  }
+  .btn {
+    font-size: 17px;
+    font-family: 'Russo One', sans-serif;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #ffffff;
+    transition: 0.5s ease;
+  }
+  
+  .btn:hover {
+    color: rgb(255, 255, 255);
+    transition-delay: 0.5s;
+  }
+  
+  .btn:hover::before {
+    width: 100%;
+  }
+  button {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  .btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #000000;
+    transition: 0.4s ease;
+    z-index: -1;
+  }
+  
+  .btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: rgb(0, 0, 0);
+  }
+  .button-container {
+    position: absolute; 
+    right: 0;
+    margin-right: 10px; 
+    background-color: #1a1a1a;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: rgba(43, 42, 42, 0.35) 0px 5px 15px,
+        rgba(37, 36, 36, 0.5) 5px 10px 15px;
+    transition: all 0.5s;
+  }
+  .button-container:hover {
+    width: 300px;
+    transition: all 0.5s;
+  }
+  
+  .button {
+    outline: 0 !important;
+    border: 0 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    transform: translateY(-3px);
+  }
+  .icon {
+    font-size: 20px;
+  }
+
+  
+  .product-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .image-section {
+    position: relative;
+    text-align: center;
+  }
+  
+  .main-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .arrow-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  .arrow-button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  .details-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  .price {
+    font-size: 22px;
+    color: #fff200;
+  }
+  
+  .size-selector,
+  .quantity-selector {
+    margin: 20px 0;
+  }
+  
+  .size-button {
+    background-color: #2b2b2b;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .size-button.active {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff200;
+  }
+  
+  .size-button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .quantity-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    border: 2px solid #fff; 
+    border-radius: 5px;
+    padding: 2px;
+  }
+  
+  .quantity-button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quantity-button:hover {
+    color: #ffd700; 
+  }
+  
+  .quantity-value {
+    font-size: 20px;
+    color: #fff;
+    min-width: 20px;
+    text-align: center;
+  }
+  .stock-status {
+    margin-top: 10px;
+    color: #0f0;
+  }
+  
+  details {
+    margin: 10px 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #fff;
+    padding: 8px;
+    text-align: center;
+  }
+  .butt {
+    padding: 12.5px 63px;
+    border: 0;
+    display: flex;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    font-family: 'Russo One', sans-serif;
+    -webkit-transition: all 0.5s;
+    margin: 5px;
+  }
+  
+  .butt:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  .butt:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+  .cart-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    display: none;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

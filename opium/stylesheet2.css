@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#1a1a1a;
+    color: #ffffff
+}
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
+.ma{
+    background-color: #2b2b2b;
+    width: 100%;
+    
+}
+h1{
+  font-family: 'Russo One', sans-serif;
+}
+li {
+  font-family: 'Russo One', sans-serif;
+  list-style: disc;
+  color: #ffffff;
+}
+.ma2{
+    background-color:#1a1a1a;
+    display: flex; 
+    align-items: center;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #444;
+    position: relative;
+    gap: 20px; 
+}
+.mo{
+text-align: center;
+text-align: center;
+    color: #ffffff;
+    font-family: 'Russo One', sans-serif;
+    margin: 0;
+    padding: 10px 0;
+}
+#mnwr{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff,
+        0 0 80px #0000ff,
+        0 0 100px #0000ff;
+    animation: flicker 1.5s infinite;
+    margin: 0; 
+}
+
+.btn {
+    font-size: 17px;
+    font-family: 'Russo One', sans-serif;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #ffffff;
+    transition: 0.5s ease;
+  }
+  
+  .btn:hover {
+    color: rgb(255, 255, 255);
+    transition-delay: 0.5s;
+  }
+  
+  .btn:hover::before {
+    width: 100%;
+  }
+  
+  .btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #000000;
+    transition: 0.4s ease;
+    z-index: -1;
+  }
+  
+  .btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: rgb(0, 0, 0);
+  }
+.button-container {
+    position: absolute; 
+    right: 0;
+    margin-right: 10px;
+    background-color: #1a1a1a;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: rgba(43, 42, 42, 0.35) 0px 5px 15px,
+        rgba(37, 36, 36, 0.5) 5px 10px 15px;
+    transition: all 0.5s;
+  }
+  .button-container:hover {
+    width: 300px;
+    transition: all 0.5s;
+  }
+  
+  .button {
+    outline: 0 !important;
+    border: 0 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    transform: translateY(-3px);
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+  margin: 170px;
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.card1 {
+  width: 120px;
+  height: 120px;
+  outline: none;
+  border: none;
+  background: #1a1a1a;
+  border-radius: 90px 5px 5px 5px;
+  box-shadow: rgba(43, 42, 42, 0.35) 0px 5px 15px,
+        rgba(37, 36, 36, 0.5) 5px 10px 15px;
+  transition: .2s ease-in-out;
+}
+
+.instagram {
+  margin-top: 1.5em;
+  margin-left: 1.2em;
+  fill: #cc39a4;
+}
+
+.card2 {
+  width: 120px;
+  height: 120px;
+  outline: none;
+  border: none;
+  background: #1a1a1a;
+  border-radius: 5px 90px 5px 5px;
+  box-shadow: rgba(43, 42, 42, 0.35) 0px 5px 15px,
+        rgba(37, 36, 36, 0.5) 5px 10px 15px;
+  transition: .2s ease-in-out;
+}
+
+.twitter {
+  margin-top: 1.5em;
+  margin-left: -.9em;
+  fill: #03A9F4;
+}
+
+.card3 {
+  width: 120px;
+  height: 120px;
+  outline: none;
+  border: none;
+  background: #1a1a1a;
+  border-radius: 5px 5px 5px 90px;
+  box-shadow: rgba(43, 42, 42, 0.35) 0px 5px 15px,
+        rgba(37, 36, 36, 0.5) 5px 10px 15px;
+  transition: .2s ease-in-out;
+}
+
+.github {
+  margin-top: -.6em;
+  margin-left: 1.2em;
+}
+
+.card4 {
+  width: 120px;
+  height: 120px;
+  outline: none;
+  border: none;
+  background: #1a1a1a;
+  border-radius: 5px 5px 90px 5px;
+  box-shadow: rgba(43, 42, 42, 0.35) 0px 5px 15px,
+        rgba(37, 36, 36, 0.5) 5px 10px 15px;
+  transition: .2s ease-in-out;
+}
+
+.discord {
+  margin-top: -.9em;
+  margin-left: -1.2em;
+  fill: #8c9eff;
+}
+.card1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+
+.card1:hover .instagram {
+  fill: white;
+}
+
+.card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #03A9F4;
+}
+
+.card2:hover .twitter {
+  fill: white;
+}
+
+.card3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: black;
+}
+
+.card3:hover .github {
+  fill: white;
+}
+
+.card4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #8c9eff;
+}
+
+.card4:hover .discord {
+  fill: white;
+}
+#scrollToTopBtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  font-weight: 600;
+  display: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: fixed;
+  bottom: 20px;
+  right: 20px; 
+}
+
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+#scrollToTopBtn:hover {
+  width: 140px;
+  border-radius: 50px;
+  transition-duration: 0.3s;
+  background-color: rgb(181, 160, 255);
+  align-items: center;
+}
+
+#scrollToTopBtn:hover .svgIcon {
+  transition-duration: 0.3s;
+  transform: translateY(-200%);
+}
+
+#scrollToTopBtn::before {
+  content: "Back to Top";
+  position: absolute;
+  color: white;
+  font-size: 13px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+#scrollToTopBtn:hover::before {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-50%) scale(1.2);
+  transition-duration: 0.3s;
+}
+#scrollToTopBtn2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  font-weight: 600;
+  display: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: fixed; 
+  bottom: 20px;
+  right: 20px; 
+}
+
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+#scrollToTopBtn2:hover {
+  width: 140px;
+  border-radius: 50px;
+  transition-duration: 0.3s;
+  background-color: rgb(181, 160, 255);
+  align-items: center;
+}
+
+#scrollToTopBtn2:hover .svgIcon {
+  transition-duration: 0.3s;
+  transform: translateY(-200%);
+}
+
+#scrollToTopBtn2::before {
+  content: "Back to Top";
+  position: absolute;
+  color: white;
+  font-size: 13px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+#scrollToTopBtn2:hover::before {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-50%) scale(1.2);
+  transition-duration: 0.3s;
+}
+.carousel {
+  position: relative;
+  width: 100%; 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  flex: 0 0 33.33%; 
+  box-sizing: border-box;
+  padding: 10px;
+}
+.card:hover{
+  transform: scale(1.08);
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-prev, .carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-prev:hover, .carousel-next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+#Shopp {
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+.product-box {
+  width: 300px;
+  height: 500px;
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #1a1a1a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Russo One', sans-serif;
+  box-shadow: 0px 0px 8px 2px rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+
+.product-box:hover {
+  transform: scale(1.05);
+}
+
+.product-box img {
+  max-width: 100%; 
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-box h3 {
+  font-size: 22px;  
+  margin: 15px 0 10px;
+}
+
+.product-box p {
+  font-size: 16px;  
+  color: #ccc;  
+}
+
+
+.product-box button {
+  padding: 12.5px 30px;
+  border: 0;
+  display: flex;
+  border-radius: 100px;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  font-family: 'Russo One', sans-serif;
+  -webkit-transition: all 0.5s;
+  margin: 5px;
+}
+
+.product-box button:hover {
+  background-color: #6fc5ff;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+.product-box button:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}

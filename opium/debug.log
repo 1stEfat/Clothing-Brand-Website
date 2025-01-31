@@ -1,0 +1,35 @@
+{"address":"moharam bek","payment-method":"credit-card","total":2000,"cart":[{"item_id":"1","quantity":2,"price":1000,"size":"L"}]}
+Array
+(
+    [address] => moharam bek
+    [payment-method] => credit-card
+    [total] => 2000
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [item_id] => 1
+                    [quantity] => 2
+                    [price] => 1000
+                    [size] => L
+                )
+
+        )
+
+)
+
+address=moharam+bek&payment-method=credit-card
+Raw JSON: address=moharam+bek&payment-method=credit-card
+Raw JSON: {"finaladdress":"moharam bek","finalpayment_method":"credit-card","finaltotal":2000,"finalitem_id":"1","finalquantity":2,"finalprice":1000,"finalitem_size":"L"}
+Raw JSON: address=moharam+bek&payment-method=credit-card
+Raw JSON: address=moharam+bek&payment-method=credit-card
+Raw JSON: address=moharam+bek&payment-method=credit-card
+Raw JSON: address=moharam+bek&payment-method=credit-card
+Raw JSON: address=moharam+bek&payment-method=credit-card
+Raw JSON: address=bawalino&payment-method=credit-card
+Raw JSON: address=bawalino&payment-method=credit-card
+Raw JSON: address=moharam+bek&payment-method=credit-card
+Raw JSON: address=kafr+abo+hamos&payment-method=credit-card
+Raw JSON: address=kafr+abo+hamos&payment-method=credit-card
+Raw JSON: address=kobry+el+namos&payment-method=credit-card
+Raw JSON: address=japan&payment-method=credit-card

@@ -1,0 +1,191 @@
+[31-Dec-2024 00:05:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 46
+[31-Dec-2024 00:05:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 47
+[31-Dec-2024 00:05:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 48
+[31-Dec-2024 00:05:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 49
+[31-Dec-2024 00:05:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 50
+[31-Dec-2024 00:05:24 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[31-Dec-2024 00:15:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 46
+[31-Dec-2024 00:15:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 47
+[31-Dec-2024 00:15:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 48
+[31-Dec-2024 00:15:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 49
+[31-Dec-2024 00:15:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 50
+[31-Dec-2024 00:15:00 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[31-Dec-2024 00:51:21 Europe/Berlin] Insufficient stock for item ID: 1.
+[31-Dec-2024 01:11:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 46
+[31-Dec-2024 01:11:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 47
+[31-Dec-2024 01:11:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 48
+[31-Dec-2024 01:11:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 49
+[31-Dec-2024 01:11:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xamp\htdocs\opium\cunt_order.php on line 50
+[31-Dec-2024 01:11:40 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[01-Jan-2025 00:57:33 Europe/Berlin] Duplicate entry '0' for key 'PRIMARY'
+[01-Jan-2025 00:58:18 Europe/Berlin] Duplicate entry '0' for key 'PRIMARY'
+[01-Jan-2025 00:58:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 00:58:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 00:58:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 00:58:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 00:58:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 00:58:18 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[01-Jan-2025 01:03:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:03:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:03:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:03:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:03:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:03:45 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[01-Jan-2025 01:03:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:03:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:03:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:03:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:03:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:03:48 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[01-Jan-2025 01:04:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:04:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:04:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:04:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:04:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:04:31 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[01-Jan-2025 01:04:31 Europe/Berlin] Duplicate entry '0' for key 'PRIMARY'
+[01-Jan-2025 01:07:00 Europe/Berlin] Duplicate entry '0' for key 'PRIMARY'
+[01-Jan-2025 01:07:19 Europe/Berlin] Duplicate entry '0' for key 'PRIMARY'
+[01-Jan-2025 01:07:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:07:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:07:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:07:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:07:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:07:19 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[01-Jan-2025 01:07:47 Europe/Berlin] Duplicate entry '0' for key 'PRIMARY'
+[01-Jan-2025 01:10:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:10:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:10:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:10:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:10:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:10:46 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[01-Jan-2025 01:10:46 Europe/Berlin] Duplicate entry '0' for key 'PRIMARY'
+[01-Jan-2025 01:13:31 Europe/Berlin] Duplicate entry '0' for key 'PRIMARY'
+[01-Jan-2025 01:13:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:13:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:13:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:13:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:13:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:13:31 Europe/Berlin] Duplicate entry '0' for key 'PRIMARY'
+[01-Jan-2025 01:18:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:18:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:18:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:18:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:18:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:18:52 Europe/Berlin] Item ID does not exist in the item table.
+[01-Jan-2025 01:21:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:21:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:21:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:21:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:21:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:22:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:22:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:22:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:22:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:22:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:39:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:39:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:39:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:39:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:39:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:39:57 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[01-Jan-2025 01:43:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:43:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:43:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:43:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:43:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:46:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:46:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:46:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:46:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:46:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:51:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:51:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:51:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:51:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:51:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:51:07 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[01-Jan-2025 01:53:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:53:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:53:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:53:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:53:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:53:07 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[01-Jan-2025 01:54:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:54:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:54:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:54:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:54:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:54:47 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`)) in C:\xampp\htdocs\opium\cunt_order.php:72
+Stack trace:
+#0 C:\xampp\htdocs\opium\cunt_order.php(72): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\opium\cunt_order.php on line 72
+[01-Jan-2025 01:54:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:54:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:54:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:54:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:54:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:54:52 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`)) in C:\xampp\htdocs\opium\cunt_order.php:72
+Stack trace:
+#0 C:\xampp\htdocs\opium\cunt_order.php(72): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\opium\cunt_order.php on line 72
+[01-Jan-2025 01:55:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:55:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:55:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:55:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:55:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:55:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`)) in C:\xampp\htdocs\opium\cunt_order.php:72
+Stack trace:
+#0 C:\xampp\htdocs\opium\cunt_order.php(72): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\opium\cunt_order.php on line 72
+[01-Jan-2025 01:58:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:58:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:58:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:58:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:58:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:58:28 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[01-Jan-2025 01:59:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 01:59:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 01:59:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 01:59:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 01:59:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 01:59:24 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[01-Jan-2025 02:05:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 02:05:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 02:05:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 02:05:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 02:05:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 02:06:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 02:06:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 02:06:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 02:06:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 02:06:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 02:15:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 02:15:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 02:15:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 02:15:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 02:15:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 02:15:21 Europe/Berlin] Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`order_item`, CONSTRAINT `order_item_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`))
+[01-Jan-2025 02:18:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 02:18:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 02:18:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 02:18:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 02:18:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 02:19:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 02:19:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 02:19:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 02:19:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 02:19:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[01-Jan-2025 07:33:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[01-Jan-2025 07:33:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[01-Jan-2025 07:33:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[01-Jan-2025 07:33:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[01-Jan-2025 07:33:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
+[31-Jan-2025 02:05:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 46
+[31-Jan-2025 02:05:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 47
+[31-Jan-2025 02:05:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 48
+[31-Jan-2025 02:05:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 49
+[31-Jan-2025 02:05:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\opium\cunt_order.php on line 50
