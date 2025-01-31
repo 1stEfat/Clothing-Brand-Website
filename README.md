@@ -7,6 +7,10 @@ Product Catalog: Display of various clothing items with detailed descriptions an
 User Profiles: Customers can create profiles, view personal information, and manage settings.
 Secure Transactions: Customers can safely add items to their cart and proceed to checkout.
 Password Management: Users can change their account passwords through the profile settings.
+Dynamic Features with AJAX :
+Seamless and real-time updates across the platform, such as:
+Adding items to the cart without refreshing the page.
+Smooth form submissions for profile updates and transactions.
 -------------------------------------------------------------------------------------------------------------
 Technology Stack
 Frontend: HTML, CSS, JavaScript
